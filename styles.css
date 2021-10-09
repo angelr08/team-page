@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+}
+
+header {
+    width: 100%;
+    margin-block-end: 50px;
+}
+
+h1 {
+    font-size: 36rem;
+    margin-block-start: 70px;
+    margin-inline-start: 12px;
+    margin-block-end: 38px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    line-height: 47.7px;
+}
+
+h3 {
+    font-size: 18rem;
+    margin-block-end: 10px;
+    margin-inline-start: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+header p {
+    font-size: 14rem;
+    margin-inline-start: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profiles {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 300px);
+    justify-items: center;
+}
+
+figure {
+    width: 140px;
+    display: flex;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profiles p {
+    font-size: 10rem;
+}
+
+.profiles h4 {
+    font-size: 14rem;
+}
+
+.art-director, .ux-designer, .developer2  {
+    align-self: end;
+}
+
+figure p {
+    writing-mode: vertical-lr;
+    padding-block-start: 5px;
+}
